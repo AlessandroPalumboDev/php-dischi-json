@@ -7,11 +7,14 @@
     <link rel="icon" href="./src/img/logo.webp" />
     
     <!-- bootstrap -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <!--  my css -->
-      <link rel="stylesheet" href="./src/css/style.css">
-    </head>
-<body class="bg-black">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Rock+Salt&display=swap" rel="stylesheet">    <!--  my css -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body class="bg-black user-select-none">
     <div id="app">
         <header class="bg-dark mb-5">
             <div class="container">
@@ -20,7 +23,7 @@
                         <div id="logo">
                             <img src="./src/img/logo.webp" alt="">
                         </div>
-                        <h1 class="text-light">
+                        <h1 class="text-light rock-salt-regular">
                             {{title}}
                         </h1>
                     </div>
@@ -36,15 +39,15 @@
                     <div class="col-10 d-flex flex-wrap align-items-center justify-content-center ">
 
                             <!-- CARD -->
-                        <div class="card m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums">
+                        <div class="card rounded-5 m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums">
 
-                            <img :src="album.immagine" class="card-img-top p-3" :alt="album.titolo">
+                            <img :src="album.immagine" class="card-img-top p-3 rounded-5" :alt="album.titolo">
 
-                            <div class="card-body d-flex flex-column gap-2 mb-3">
+                            <div class="card-body d-flex flex-column gap-3 mb-4">
 
-                                <h5 class="card-title">{{album.titolo}}</h5>
-                                <span class="card-text">{{album.artista}}</span>
-                                <span class="card-text">{{album.anno}}</span>
+                                <h5 class="card-title new-rocker-regular">{{album.titolo}}</h5>
+                                <span class="card-text rock-salt-regular">{{album.artista}}</span>
+                                <span class="card-text rock-salt-regular">{{album.anno}}</span>
                                 
                             </div>
 
@@ -57,6 +60,8 @@
             </div>
         </main>
     </div>
+    <!-- bootstrap js -->
+     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- vue js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- axios -->
