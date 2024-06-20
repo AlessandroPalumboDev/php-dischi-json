@@ -25,7 +25,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
+                        <div class="card">
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,6 +35,8 @@
     </div>
     <!-- vue js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- main.js -->
      <script src="src/main.js"></script>
 </body>
