@@ -9,7 +9,7 @@
     <!-- bootstrap -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <!--  my css -->
-      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./src/css/style.css">
     </head>
 <body class="bg-black">
     <div id="app">
@@ -35,6 +35,7 @@
 
                     <div class="col-10 d-flex flex-wrap align-items-center justify-content-center ">
 
+                            <!-- CARD -->
                         <div class="card m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums">
 
                             <img :src="album.immagine" class="card-img-top p-3" :alt="album.titolo">
@@ -61,6 +62,6 @@
     <!-- axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- main.js -->
-     <script src="src/main.js"></script>
+     <script src="src/js/main.js"></script>
 </body>
 </html>
