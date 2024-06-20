@@ -24,5 +24,5 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
 
 ### Vi lascio il mockup per il layout, sentitevi liberi di esprimere la vostra creatività
 
-![alt text](screenshot-1.PNG.png)
-![alt text](screenshot-2.PNG.png)
+![alt text](./src/img/screenshot-1.PNG.png)
+![alt text](./src/img/screenshot-2.PNG.png)
