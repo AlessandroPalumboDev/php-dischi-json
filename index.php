@@ -7,13 +7,13 @@
     <!-- bootstrap -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body class="bg-black">
     <div id="app">
         <header>
             <div class="container">
                 <div class="row">
                     <div class="col text-center py-3">
-                        <h1>
+                        <h1 class="text-light">
                             {{title}}
                         </h1>
                     </div>
@@ -23,10 +23,10 @@
 
         <main>
             <div class="container">
-                <div class="row">
-                    <div class="col-10 d-flex flex-wrap align-items-center justify-content-center">
-                        <div class="card" style="width: 18rem;" v-for="album in albums">
-                            <img :src="album.immagine" class="card-img-top" :alt="album.titolo">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-10 d-flex flex-wrap align-items-center justify-content-center ">
+                        <div class="card m-3 d-flex align-items-center text-center bg-dark text-light" style="width: 18rem;" v-for="album in albums">
+                            <img :src="album.immagine" class="card-img-top p-3" :alt="album.titolo">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">{{album.titolo}}</h5>
                                 <span class="card-text">{{album.artista}}</span>
