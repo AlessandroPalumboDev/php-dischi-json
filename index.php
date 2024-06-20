@@ -24,9 +24,15 @@
         <main>
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="card">
-
+                    <div class="col-10 d-flex flex-wrap align-items-center justify-content-center">
+                        <div class="card" style="width: 18rem;" v-for="album in albums">
+                            <img :src="album.immagine" class="card-img-top" :alt="album.titolo">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">{{album.titolo}}</h5>
+                                <span class="card-text">{{album.artista}}</span>
+                                <span class="card-text">{{album.anno}}</span>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
