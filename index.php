@@ -11,11 +11,12 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Rock+Salt&display=swap" rel="stylesheet">    <!--  my css -->
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Rock+Salt&display=swap" rel="stylesheet">    
+    <!--  my css -->
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body class="bg-black user-select-none">
-    <div id="app">
+    <div id="app" v-cloak>
         <header class="bg-dark mb-5">
             <div class="container">
                 <div class="row">
@@ -59,6 +60,9 @@
 
             </div>
         </main>
+        <footer>
+            <span class="rock-salt-regular p-3">AP</span>
+        </footer>
     </div>
     <!-- bootstrap js -->
      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
