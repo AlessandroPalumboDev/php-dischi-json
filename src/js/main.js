@@ -15,6 +15,11 @@ createApp({
         this.albums = response.data;
       });
     },
+    // getAlbumsInfo() {
+    //   axios.get(this.albumsUrl).then((response) => {
+    //     this.albums = response.data;
+    //   });
+    // },
   },
   created() {
     this.getAlbums();
