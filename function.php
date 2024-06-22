@@ -2,13 +2,14 @@
 function getAlbums($album)
 {
     return[
+        "id" => $album['id'],
         "immagine" => $album['immagine'],
         "titolo" => $album['titolo'],
         "artista" => $album['artista'],
         "anno" => $album['anno'],
     ];
 }
-function getAlbumsInfo($album)
+function getAlbumInfo($album)
 {
     return[
         "immagine" => $album['immagine'],

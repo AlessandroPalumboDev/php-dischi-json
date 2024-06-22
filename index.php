@@ -64,21 +64,24 @@
                         <div class="modal fade" id="albumModal" tabindex="-1" aria-labelledby="albumModalLabel" aria-hidden="false" v-for="album in albums">
                             <div class="modal-dialog modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content  bg-dark text-light">
-                                    <div class="modal-header ">
-                                        <h1 class="modal-title fs-5 rock-salt-regular" id="albumModalLabel">{{album.titolo}}</h1>
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 rock-salt-regular" id="albumModalLabel">{{currentAlbum.titolo}}</h1>
                                         <button type="button" class="btn-close text-success" data-bs-dismiss="modal" aria-label="Close" ></button>
                                     </div>
                                     <div class="modal-body d-flex align-items-center justify-content-between">
                                         <div class="container-fluid">
                                             <div class="row justify-content-center">
-                                                <div class="col-3 text-center mb-3"><img :src="album.immagine" alt=""></div>
+                                                <div class="col-3 text-center mb-3"><img :src="currentAlbum.immagine" :alt="currentAlbum.titolo"></div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-5">
                                                     <h5 class="rock-salt-regular mb-3">Brani</h5>
                                                     <ul>
-                                                        <li class="rock-salt-regular" vfor="brano in album.brani">
-                                                            {{brano}} 
+                                                        <li class="rock-salt-regular" v-for="brano in currentAlbum.brani">
+                                                            <span>
+                                                                {{brano}}
+                                                            </span>
+                                                                
                                                         </li>
                                                         
                                                     </ul>
@@ -86,7 +89,7 @@
                                                 <div class="col-md-7">
                                                     <h5 class="rock-salt-regular mb-3">Info</h5>
                                                     <p class="text-light">
-                                                        {{album.descrizione}}
+                                                        {{currentAlbum.descrizione}}
                                                     </p>
                                                 </div>
                                             </div>

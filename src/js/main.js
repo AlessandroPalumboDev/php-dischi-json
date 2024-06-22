@@ -6,7 +6,7 @@ createApp({
       title: "PHP Dischi JSON",
       albumsUrl: "http://localhost/php-dischi-json/server.php/",
       albums: [],
-      currentAlbum: null,
+      currentAlbum: {},
     };
   },
 
@@ -20,15 +20,13 @@ createApp({
       axios
         .get(this.albumsUrl, {
           params: {
-            id: "id",
-            info: "descrizione",
-            brani: "brani",
             action: "read",
+            id: id,
           },
         })
         .then((response) => {
-          console.log(response.data);
           this.currentAlbum = response.data;
+          console.log(response.data);
         });
     },
   },

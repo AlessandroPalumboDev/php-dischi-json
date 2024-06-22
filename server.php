@@ -18,6 +18,7 @@ if(isset($_GET['action']) && $_GET['action'] === 'read'){
     // echo 'voglio leggere un album';
 
     if(isset($_GET['id'])){
+
         $index = $_GET['id'];
 
         $album_position = array_search($_GET['id'], array_column($albums, 'id'));
