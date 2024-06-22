@@ -5,8 +5,8 @@
     "titolo": "1,000 Hours",
     "artista": "Green Day",
     "anno": "1989",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "1,000 Hours (stilizzato come 1,000 HOURS) è il primo EP della band punk californiana Green Day, registrato nel 1988 e pubblicato nell'aprile del 1989 dalla Lookout! Records. Nel 1991 è stato ripubblicato assieme alla compilation 1,039/Smoothed Out Slappy Hours. Quando la band ha distribuito l'EP si faceva ancora chiamare Sweet Children, anche se cambiarono nome utilizzando quello con cui oggi vengono riconosciuti solo per poterlo mettere nella copertina. Quest'ultima è stata creata dalla Lookout! Records poiché i Green Day non avevano né un'idea precisa per il design dell'album, né avevano deciso che nome dargli. Così l'etichetta discografica decise di dargli il nome della prima canzone dell'album, creò un logo per il nome della band e pubblicò l'EP.",
+    "brani": ["1,000 Hours", "Dry Ice", "Only of You", "The One I Want"]
   },
   {
     "id": 2,
@@ -14,8 +14,19 @@
     "titolo": "39/Smooth",
     "artista": "Green Day",
     "anno": "1990",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "39/Smooth è il primo album in studio del gruppo musicale statunitense Green Day, pubblicato nel 1990 dalla Lookout! Records.",
+    "brani": [
+      "At the Library",
+      "Don't Leave Me",
+      "I Was There ",
+      "Disappearing Boy",
+      "Green Day",
+      "Going to Pasalacqua",
+      "16",
+      "Road to Acceptance",
+      "Rest",
+      "The Judge's Daughter"
+    ]
   },
   {
     "id": 3,
@@ -23,8 +34,21 @@
     "titolo": "Kerplunk",
     "artista": "Green Day",
     "anno": "1992",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "Kerplunk (conosciuto anche come Kerplunk!) è il secondo album dei Green Day, pubblicato il 17 dicembre 1991 dalla Lookout!.L'album vendette 10000 copie durante il primo giorno nei negozi e divenne il maggior successo commerciale della Lookout!.[5] Le vendite sono aumentate negli anni di pari passo con la crescita di popolarità della band, fino a raggiungere il disco di platino per il milione di copie vendute nel 2003.",
+    "brani": [
+      "2000 Light Years Away",
+      "One for the Razorbacks",
+      "Welcome to Paradise",
+      "Christie Road",
+      "Private Ale",
+      "Dominated Love Slave",
+      "One of My Lies",
+      "80",
+      "Android",
+      "No One Knows",
+      "Who Wrote Holden Caulfield?",
+      "Words I Might Have Ate"
+    ]
   },
   {
     "id": 4,
@@ -32,8 +56,23 @@
     "titolo": "Dookie",
     "artista": "Green Day",
     "anno": "1994",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "Dookie è il terzo album in studio del gruppo musicale statunitense Green Day, pubblicato il 1º febbraio 1994 dalla Reprise Records. Primo album del gruppo con la collaborazione di Rob Cavallo, Dookie è divenuto un successo commerciale in tutto il mondo, raggiungendo la seconda posizione nella classifica statunitense degli album[24] e ha scalato le classifiche in sette paesi. L'album ha contribuito a far emergere il trio nel mainstream, conferendogli molta popolarità; insieme a Smash degli Offspring, uscito quello stesso anno, ha rivitalizzato il genere punk rock negli anni novanta. Il disco è stato inserito alla 375ª posizione nella lista inerente ai 500 migliori album di sempre secondo Rolling Stone. Da Dookie sono stati estratti cinque singoli: Longview, la ri-registrazione di Welcome to Paradise, Basket Case, il singolo mandato in onda su tutte le radio, When I Come Around e She. L'album inizialmente non riscosse grande successo; fu solo con la pubblicazione di Basket Case e When I Come Around, diversi mesi dopo la sua uscita, che divenne un successo planetario. Dal 2008 Dookie è l'album più venduto dei Green Day, con oltre 15 milioni di copie vendute in tutto il mondo.[27] Si tratta inoltre dell'unico lavoro del gruppo ad essere stato certificato disco di diamante dalla Recording Industry Association of America. Dookie è stato premiato con il Grammy Award al miglior album di musica alternativa nel 1995. Il 29 settembre 2023 è stata pubblicata un'edizione super deluxe al fine di celebrare il trentesimo anniversario dell'album, che contiene outtake, demo e due concerti.",
+    "brani": [
+      "Burnout",
+      "Having a Blast",
+      "Chump",
+      "Longview",
+      "Welcome to Paradise ",
+      "Pulling Teeth",
+      "Basket Case",
+      "She ",
+      "Sassafras Roots",
+      "When I Come Around",
+      "Coming Clean",
+      "Emenius Sleepus",
+      "In the End",
+      "F.O.D. (Fuck Off and Die)"
+    ]
   },
   {
     "id": 5,
@@ -41,8 +80,23 @@
     "titolo": "Insomniac",
     "artista": "Green Day",
     "anno": "1995",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "Il titolo dell'album è dovuto alle notti passate insonni dal frontman Billie Joe Armstrong dopo la nascita del primo figlio. Insomniac non ha avuto lo stesso successo del precedente album, forse a causa di un suono maggiormente duro e tendenzialmente più cupo. La figura presente in copertina è un'opera di Winston Smith (artista noto anche per aver creato alcune cover art per i Dead Kennedys) commissionata direttamente dal gruppo ed è chiamata God Told Me To Skin You Alive. È il terzo best seller dei Green Day, dopo American Idiot e Dookie, con circa 8 milioni di copie vendute e 2.076.000 soltanto negli USA.",
+    "brani": [
+      "Armatage Shanks",
+      "Brat",
+      "Stuck with Me",
+      "Geek Stink Breath",
+      "No Pride",
+      "Bab's Uvula Who?",
+      "86",
+      "Panic Song",
+      "tuart and the Ave",
+      "Brain Stew",
+      "Jaded",
+      "Westbound Sign",
+      "Tight Wad Hill ",
+      "Walking Contradiction"
+    ]
   },
   {
     "id": 6,
@@ -50,8 +104,8 @@
     "titolo": "Nimrod",
     "artista": "Green Day",
     "anno": "1997",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 7,
@@ -59,8 +113,8 @@
     "titolo": "Warning",
     "artista": "Green Day",
     "anno": "2000",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 8,
@@ -68,8 +122,8 @@
     "titolo": "International Superhits!",
     "artista": "Green Day",
     "anno": "2001",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 9,
@@ -77,8 +131,8 @@
     "titolo": "Shenanigans",
     "artista": "Green Day",
     "anno": "2002",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 10,
@@ -86,8 +140,8 @@
     "titolo": "American Idiot",
     "artista": "Green Day",
     "anno": "2004",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 11,
@@ -95,8 +149,8 @@
     "titolo": "Bullet in a Bible",
     "artista": "Green Day",
     "anno": "2005",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 12,
@@ -104,8 +158,8 @@
     "titolo": "21st Century Breakdown",
     "artista": "Green Day",
     "anno": "2009",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 13,
@@ -113,8 +167,8 @@
     "titolo": "¡Uno!",
     "artista": "Green Day",
     "anno": "2011",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 14,
@@ -122,8 +176,8 @@
     "titolo": "¡Dos!",
     "artista": "Green Day",
     "anno": "2012",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 15,
@@ -131,8 +185,8 @@
     "titolo": "¡Tré!",
     "artista": "Green Day",
     "anno": "2012",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 16,
@@ -140,8 +194,8 @@
     "titolo": "Awesome as Fuck",
     "artista": "Green Day",
     "anno": "2012",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 17,
@@ -149,8 +203,8 @@
     "titolo": "On the Radio",
     "artista": "Green Day",
     "anno": "2012",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 18,
@@ -158,8 +212,8 @@
     "titolo": "Demolicious",
     "artista": "Green Day",
     "anno": "2014",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 19,
@@ -167,8 +221,8 @@
     "titolo": "Revolution Radio",
     "artista": "Green Day",
     "anno": "2016",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 20,
@@ -176,8 +230,8 @@
     "titolo": "God's Favorite Band",
     "artista": "Green Day",
     "anno": "2017",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 21,
@@ -185,8 +239,8 @@
     "titolo": "Woodstock 1994",
     "artista": "Green Day",
     "anno": "2019",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 22,
@@ -194,8 +248,8 @@
     "titolo": "Father of All Motherfuckers",
     "artista": "Green Day",
     "anno": "2020",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 23,
@@ -203,8 +257,8 @@
     "titolo": "BBC Sessions",
     "artista": "Green Day",
     "anno": "2021",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 24,
@@ -212,8 +266,8 @@
     "titolo": "Saviors",
     "artista": "Green Day",
     "anno": "2024",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   },
   {
     "id": 25,
@@ -221,7 +275,7 @@
     "titolo": "Cigarettes and Valentines",
     "artista": "Green Day",
     "anno": "NEVER",
-    "descrizione": "Descrizione di prova di questo album",
-    "brani": ["brano1", "brano2", "brano3"]
+    "descrizione": "",
+    "brani": ["", ""]
   }
 ]

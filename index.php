@@ -45,7 +45,7 @@
                     <div class="col-11 d-flex flex-wrap align-items-center justify-content-center ">
 
                             <!-- CARD -->
-                        <div class="card rounded-5 m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums" >
+                        <div class="card rounded-5 m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums" data-bs-toggle="modal" data-bs-target="#albumModal" @click="getAlbumByID(album.id)">
 
                             <img :src="album.immagine" class="card-img-top p-3 rounded-5" :alt="album.titolo">
 
@@ -54,7 +54,7 @@
                                 <h5 class="card-title new-rocker-regular">{{album.titolo}}</h5>
                                 <span class="card-text rock-salt-regular">{{album.artista}}</span>
                                 <span class="card-text rock-salt-regular">{{album.anno}}</span>
-                                <button class="aggiungi btn btn-dark text-light new-rocker-regular py-2 px-3" data-bs-toggle="modal" data-bs-target="#albumModal" @click="getAlbumByID(album.id)">more info</button>
+                                <!-- <button class="aggiungi btn btn-dark text-light new-rocker-regular py-2 px-3" data-bs-toggle="modal" data-bs-target="#albumModal" @click="getAlbumByID(album.id)">more info</button> -->
                                 
                             </div>
 
@@ -76,15 +76,15 @@
                                             <div class="row">
                                                 <div class="col-md-5">
                                                     <h5 class="rock-salt-regular mb-3">Brani</h5>
-                                                    <ul>
-                                                        <li class="rock-salt-regular" v-for="brano in currentAlbum.brani">
+                                                    <ol>
+                                                        <li v-for="brano in currentAlbum.brani">
                                                             <span>
                                                                 {{brano}}
                                                             </span>
                                                                 
                                                         </li>
                                                         
-                                                    </ul>
+                                                    </ol>
                                                 </div>
                                                 <div class="col-md-7">
                                                     <h5 class="rock-salt-regular mb-3">Info</h5>
