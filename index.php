@@ -30,7 +30,7 @@
                             </h1>
                         </div>
                         <div>
-                            <button class="aggiungi btn btn-secondary text-light rock-salt-regular py-2 px-3">+</button>
+                            <button class="aggiungi btn btn-secondary text-light rock-salt-regular py-2 px-3" data-bs-toggle="modal" data-bs-target="#newAlbumModal">+</button>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
 
                         </div>
 
-                            <!-- Modal -->
+                            <!-- Modal INFO ALBUM-->
                         <div class="modal fade" id="albumModal" tabindex="-1" aria-labelledby="albumModalLabel" aria-hidden="false" v-for="album in albums">
                             <div class="modal-dialog modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content  bg-dark text-light">
@@ -91,6 +91,50 @@
                                                     </p>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <!-- Modal NUOVO ALBUM-->
+                        <div class="modal fade" id="newAlbumModal" tabindex="-1" aria-labelledby="newAlbumModalLabel" aria-hidden="false" v-for="album in albums">
+                            <div class="modal-dialog modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content  bg-dark text-light">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 rock-salt-regular" id="newAlbumModalLabel">AGGIUNGI NUOVO ALBUM</h1>
+                                        <button type="button" class="btn-close text-success" data-bs-dismiss="modal" aria-label="Close" ></button>
+                                    </div>
+                                    <div class="modal-body d-flex align-items-center justify-content-between">
+                                        <div class="container-fluid">
+                                            <div class="row justify-content-center">
+                                                <div class="col-7">
+                                                <form>
+                                                    <div class="mb-3">
+                                                        <label for="formGroupExampleInput" class="form-label">Titolo</label>
+                                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Titolo">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formGroupExampleInput" class="form-label">Artista</label>
+                                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Artista">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formGroupExampleInput" class="form-label">Anno</label>
+                                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Anno">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formGroupExampleInput" class="form-label">Descrizione</label>
+                                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Descrizione">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formGroupExampleInput" class="form-label">Brani</label>
+                                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Brani">
+                                                    </div>
+                                                    <button class="aggiungi btn btn-dark text-light new-rocker-regular py-2 px-3"@click="aggiungiAlbum()" >Aggiungi</button>
+                                                </form>
+                                                </div>
+                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

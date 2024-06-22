@@ -4,7 +4,7 @@ require_once __DIR__ .'/function.php';
 $database_file = __DIR__.'/albums.json';
 
 // lettura della base dati
-$data = file_get_contents($database_file);
+$data = file_get_contents($database_file); // restutisce un astringa
 
 // parametro - azione (crea, leggi, aggiungi, elimina) => CRUD (create, read, update, delete)
 

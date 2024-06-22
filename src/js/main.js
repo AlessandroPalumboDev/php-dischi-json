@@ -16,6 +16,7 @@ createApp({
         this.albums = response.data;
       });
     },
+
     getAlbumByID(id) {
       axios
         .get(this.albumsUrl, {
@@ -27,6 +28,10 @@ createApp({
         .then((response) => {
           this.currentAlbum = response.data;
         });
+    },
+
+    aggiungiAlbum() {
+      console.log("aggiungo album");
     },
   },
   created() {
