@@ -81,9 +81,7 @@
                                                             <span>
                                                                 {{brano}}
                                                             </span>
-                                                                
                                                         </li>
-                                                        
                                                     </ol>
                                                 </div>
                                                 <div class="col-md-7">

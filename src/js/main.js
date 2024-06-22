@@ -6,7 +6,7 @@ createApp({
       title: "PHP Dischi JSON",
       albumsUrl: "http://localhost/php-dischi-json/server.php/",
       albums: [],
-      currentAlbum: {},
+      currentAlbum: "",
     };
   },
 
@@ -26,7 +26,6 @@ createApp({
         })
         .then((response) => {
           this.currentAlbum = response.data;
-          console.log(response.data);
         });
     },
   },

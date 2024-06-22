@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ .'/function.php';
 
+$database_file = (__DIR__.'/albums.json');
+
 // lettura della base dati
 $data = file_get_contents(__DIR__.'/albums.json');
 
@@ -32,7 +34,27 @@ if(isset($_GET['action']) && $_GET['action'] === 'read'){
 
 
 }
-if(isset($_GET['action']) && $_GET['action'] === 'create'){
+if(isset($_POST['action']) && $_POST['action'] === 'create'){
+    // echo 'cerco di creare un album';
+
+
+    $new_album = [
+        "id"=> strlen($albums +1),
+        "immagine" => $_POST[''],
+        "titolo" => $_POST[''],
+        "artista" => $_POST[''],
+        "anno" => $_POST[''],
+        "descrizione" => $_POST[''],
+        "brani" => $_POST['']
+    ];
+
+    $result = [...$albums, $new_album];
+
+    file_put_contents($database_file, json_encode($result));
+
+    // 500 internal server error
+
+
 
 }
 if(isset($_GET['action']) && $_GET['action'] === 'update'){

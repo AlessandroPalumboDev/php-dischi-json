@@ -14,7 +14,7 @@
 /* effetti sulla card */
 .card {
   width: 18rem;
-  /* cursor: pointer; */
+  cursor: pointer;
   transition-duration: 1s;
 }
 
