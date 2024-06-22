@@ -30,7 +30,7 @@
                             </h1>
                         </div>
                         <div>
-                            <button id="aggiungi" class="btn btn-secondary text-light rock-salt-regular py-2 px-3">+</button>
+                            <button class="aggiungi btn btn-secondary text-light rock-salt-regular py-2 px-3">+</button>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <div class="col-11 d-flex flex-wrap align-items-center justify-content-center ">
 
                             <!-- CARD -->
-                        <div class="card rounded-5 m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums" data-bs-toggle="modal" data-bs-target="#albumModal">
+                        <div class="card rounded-5 m-3 d-flex align-items-center text-center bg-dark text-light" v-for="album in albums" >
 
                             <img :src="album.immagine" class="card-img-top p-3 rounded-5" :alt="album.titolo">
 
@@ -54,43 +54,39 @@
                                 <h5 class="card-title new-rocker-regular">{{album.titolo}}</h5>
                                 <span class="card-text rock-salt-regular">{{album.artista}}</span>
                                 <span class="card-text rock-salt-regular">{{album.anno}}</span>
+                                <button class="aggiungi btn btn-dark text-light new-rocker-regular py-2 px-3" data-bs-toggle="modal" data-bs-target="#albumModal" @click="getAlbumByID(album.id)">more info</button>
                                 
                             </div>
 
                         </div>
 
                             <!-- Modal -->
-                        <div class="modal fade" id="albumModal" tabindex="-1" aria-labelledby="albumModalLabel" aria-hidden="false">
+                        <div class="modal fade" id="albumModal" tabindex="-1" aria-labelledby="albumModalLabel" aria-hidden="false" v-for="album in albums">
                             <div class="modal-dialog modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content  bg-dark text-light">
                                     <div class="modal-header ">
-                                        <h1 class="modal-title fs-5 rock-salt-regular" id="albumModalLabel">Modal title</h1>
+                                        <h1 class="modal-title fs-5 rock-salt-regular" id="albumModalLabel">{{album.titolo}}</h1>
                                         <button type="button" class="btn-close text-success" data-bs-dismiss="modal" aria-label="Close" ></button>
                                     </div>
                                     <div class="modal-body d-flex align-items-center justify-content-between">
                                         <div class="container-fluid">
                                             <div class="row justify-content-center">
-                                                <div class="col-3 text-center mb-3">immagine copertina</div>
+                                                <div class="col-3 text-center mb-3"><img :src="album.immagine" alt=""></div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-5">
-                                                    <h5 class="rock-salt-regular">Brani</h5>
+                                                    <h5 class="rock-salt-regular mb-3">Brani</h5>
                                                     <ul>
-                                                        <li class="rock-salt-regular">
-                                                            brano 
+                                                        <li class="rock-salt-regular" vfor="brano in album.brani">
+                                                            {{brano}} 
                                                         </li>
-                                                        <li>
-                                                            brano 
-                                                        </li>
-                                                        <li>
-                                                            brano 
-                                                        </li>
+                                                        
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-7">
-                                                    <h5 class="rock-salt-regular">Info</h5>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure maxime minus animi vero, corrupti itaque fugiat libero impedit perferendis quod accusantium consectetur asperiores obcaecati est temporibus unde facere nostrum?
+                                                    <h5 class="rock-salt-regular mb-3">Info</h5>
+                                                    <p class="text-light">
+                                                        {{album.descrizione}}
                                                     </p>
                                                 </div>
                                             </div>
